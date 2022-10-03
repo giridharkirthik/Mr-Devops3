@@ -1,4 +1,4 @@
-FROM alpine:3.14
+FROM redhat/ubi8-init
 
 RUN yum install -y httpd \
  zip\
